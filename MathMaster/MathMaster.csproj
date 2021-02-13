@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ErrorHandler.cs" />
     <Compile Include="Gamemanager.cs" />
     <Compile Include="InputHandler.cs" />
     <Compile Include="Program.cs" />

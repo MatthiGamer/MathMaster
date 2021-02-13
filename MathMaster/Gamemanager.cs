@@ -11,9 +11,12 @@ namespace MathMaster
         public static Gamemanager instance;
 
         private static int score = 0;
+        private static int difficultyLevelOptions = 3;
+        private static int difficultyLevel = 1;
 
         public void InitializeInstance() => instance = this;
         public int GetScore() => score;
         public void AddPointsToScore(int amount) => score += amount;
+        public void SetDifficultyLevel(int difficulty) => difficultyLevel = difficulty;
     }
 }

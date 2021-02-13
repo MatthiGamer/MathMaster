@@ -14,6 +14,7 @@ namespace MathMaster
         static void Main(string[] args)
         {
             InitializeInstances();
+            Gamemanager.instance.SetDifficultyLevel(InputHandler.instance.GetDifficultyLevel());
         }
 
         private static void InitializeInstances()
