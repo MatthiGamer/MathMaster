@@ -11,5 +11,11 @@ namespace MathMaster
         public static ErrorHandler instance;
 
         public void InitializeInstance() => instance = this;
+
+        public void WrongDifficultyError()
+        {
+            Console.WriteLine("\nYour difficulty level is not available! Please consider your choice! \n");
+            Program.SetDifficulty();
+        }
     }
 }

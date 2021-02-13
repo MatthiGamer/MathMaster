@@ -18,5 +18,6 @@ namespace MathMaster
         public int GetScore() => score;
         public void AddPointsToScore(int amount) => score += amount;
         public void SetDifficultyLevel(int difficulty) => difficultyLevel = difficulty;
+        public bool DifficultyIsRight() => difficultyLevel <= difficultyLevelOptions;
     }
 }
