@@ -8,6 +8,8 @@ namespace MathMaster
 {
     class ErrorHandler
     {
+        public static ErrorHandler instance;
 
+        public void InitializeInstance() => instance = this;
     }
 }

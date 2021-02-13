@@ -8,5 +8,9 @@ namespace MathMaster
 {
     class EquationCreator
     {
+        public static EquationCreator instance;
+
+        public void InitializeInstance() => instance = this;
+
     }
 }
